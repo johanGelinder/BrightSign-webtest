@@ -1,0 +1,130 @@
+/* screen - index */
+
+.index {
+  align-items: flex-start;
+  background-color: var(--grey-scalelight-grey-bg);
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  width: 1280px;
+}
+
+.index .flex-row {
+  align-items: flex-start;
+  display: flex;
+  min-width: 1280px;
+}
+
+.index .flex-row-item {
+  height: 704px;
+  object-fit: cover;
+  width: 320px;
+}
+
+.index .overlap-group {
+  align-items: center;
+  background-color: var(--redlego-red);
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  padding: 38px 0;
+  width: 1280px;
+}
+
+.index .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 186px;
+  min-width: 1220px;
+}
+
+.index .frame-17 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 186px;
+  width: 260px;
+}
+
+.index .headline {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 110px;
+  width: 260px;
+}
+
+.index .headline-1 {
+  color: var(--x-grey-scale--white-bg);
+  font-weight: 500;
+  line-height: 47.5px;
+  min-height: 95px;
+  width: 260px;
+}
+
+.index .rectangle-41 {
+  background-color: var(--x-grey-scale--white-bg);
+  height: 3px;
+  margin-top: 12px;
+  width: 88px;
+}
+
+.index .cta-red {
+  align-items: center;
+  background-color: var(--x-grey-scale--white-bg);
+  border-radius: 24px;
+  display: flex;
+  height: 46px;
+  margin-top: 30px;
+  min-width: 125px;
+  padding: 0 24px;
+  cursor: pointer;
+}
+
+.index .learn-more {
+  color: var(--grey-scaledark-grey-text);
+  font-weight: 400;
+  line-height: 22px;
+  min-height: 22px;
+  min-width: 77px;
+  white-space: nowrap;
+}
+
+.index .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  min-height: 186px;
+  width: 260px;
+}
+
+.index .headline-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  min-height: 158px;
+  width: 260px;
+}
+
+.index .headline-3 {
+  color: var(--x-grey-scale--white-bg);
+  font-weight: 500;
+  line-height: 47.5px;
+  min-height: 143px;
+  width: 260px;
+}
+
+.index .cta-red-1 {
+  align-items: center;
+  background-color: var(--x-grey-scale--white-bg);
+  border-radius: 24px;
+  display: flex;
+  height: 46px;
+  margin-left: 185.0px;
+  margin-top: 2px;
+  min-width: 125px;
+  padding: 0 24px;
+  cursor: pointer;
+}

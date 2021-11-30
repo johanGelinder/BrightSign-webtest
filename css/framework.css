@@ -1,0 +1,108 @@
+/* screen - framework */
+
+.framework {
+  align-items: flex-start;
+  background-color: var(--grey-scalelight-grey-bg);
+  display: flex;
+  width: 1280px;
+}
+
+.framework .overlap-group {
+  height: 1024px;
+  position: relative;
+  width: 1280px;
+}
+
+.framework .slideshow3 {
+  height: 1024px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 831px;
+}
+
+.framework .back {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  left: 40px;
+  min-width: 66px;
+  padding: 1.0px 1.5px;
+  position: absolute;
+  top: 40px;
+}
+
+.framework .vector-1 {
+  height: 20px;
+  margin-top: 0;
+  width: 13px;
+}
+
+.framework .place {
+  align-self: flex-end;
+  color: var(--grey-scalelight-grey-bg);
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: 14px;
+  min-height: 22px;
+  min-width: 33px;
+  white-space: nowrap;
+}
+
+.framework .text-block {
+  align-items: center;
+  background-color: var(--redlego-red);
+  display: flex;
+  flex-direction: column;
+  left: 720px;
+  min-height: 1024px;
+  padding: 48px 0;
+  position: absolute;
+  top: 0;
+  width: 560px;
+}
+
+.framework .headline {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+  min-height: 110px;
+  width: 356px;
+}
+
+.framework .headline-1 {
+  color: var(--x-grey-scale--white-bg);
+  font-weight: 500;
+  line-height: 47.5px;
+  min-height: 95px;
+  width: 356px;
+  margin-left: 0;
+}
+
+.framework .rectangle-41 {
+  background-color: var(--x-grey-scale--white-bg);
+  height: 3px;
+  margin-top: 12px;
+  width: 88px;
+}
+
+.framework .lorem-ipsum-dolor-si {
+  color: var(--x-grey-scale--white-bg);
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 32px;
+  min-height: 108px;
+  width: 496px;
+}
+
+.framework .project-name-skole {
+  color: var(--x-grey-scale--white-bg);
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 32px;
+  min-height: 554px;
+  width: 496px;
+}

@@ -1,0 +1,193 @@
+/* screen - billundpigekantori */
+
+.billundpigekantori {
+  align-items: flex-start;
+  background-color: var(--grey-scalelight-grey-bg);
+  display: flex;
+  overflow: hidden;
+  width: 1280px;
+}
+
+.billundpigekantori .overlap-group1 {
+  align-items: flex-start;
+
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1024px;
+  justify-content: flex-end;
+  min-width: 1280px;
+  position: relative;
+}
+
+.billundpigekantori .back {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  margin-top: 40px;
+  min-width: 66px;
+  padding: 1.0px 1.5px;
+}
+
+.billundpigekantori .vector-1 {
+  height: 20px;
+  margin-top: 0;
+  width: 13px;
+  z-index: 1;
+}
+
+.billundpigekantori .place {
+  align-self: flex-end;
+  color: var(--grey-scalelight-grey-bg);
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: 14px;
+  min-height: 22px;
+  min-width: 33px;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.billundpigekantori .text-block-tabs {
+  align-items: center;
+  background-color: var(--redlego-red);
+  display: flex;
+  flex-direction: column;
+  margin-left: 754px;
+  min-height: 1024px;
+  padding: 48px 0;
+  width: 420px;
+  z-index: 1;
+}
+
+.billundpigekantori .frame-10 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 140px;
+  width: 356px;
+  z-index: 1;
+}
+
+.billundpigekantori .headline {
+  color: var(--x-grey-scale--white-bg);
+  font-weight: 500;
+  line-height: 47.5px;
+  min-height: 95px;
+  width: 356px;
+  z-index: 1;
+}
+
+.billundpigekantori .overlap-group {
+  height: 33px;
+  margin-top: 12px;
+  position: relative;
+  width: 356px;
+  z-index: 1;
+}
+
+.billundpigekantori .tabs {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 33px;
+  position: absolute;
+  top: 0;
+  width: 104px;
+  z-index: 1;
+}
+
+.billundpigekantori .slideshow1 {
+  height: 1024px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1333px;
+}
+
+.billundpigekantori .about {
+  color: var(--x-grey-scale--white-bg);
+  font-weight: 400;
+  line-height: 22px;
+  min-height: 22px;
+  text-align: center;
+  white-space: nowrap;
+  width: 104px;
+  z-index: 1;
+}
+
+.billundpigekantori .rectangle-7 {
+  background-color: var(--x-grey-scale--white-bg);
+  height: 3px;
+  margin-top: 4px;
+  width: 104px;
+  z-index: 1;
+}
+
+.billundpigekantori .tabs-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 104px;
+  min-height: 27px;
+  position: absolute;
+  top: 0;
+  width: 104px;
+  z-index: 1;
+}
+
+.billundpigekantori .facts {
+  color: var(--redtint-02);
+  font-weight: 400;
+  line-height: 22px;
+  min-height: 22px;
+  text-align: center;
+  white-space: nowrap;
+  width: 104px;
+  z-index: 1;
+}
+
+.billundpigekantori .rectangle-7-1 {
+  background-color: var(--x-grey-scale--white-bg);
+  height: 1px;
+  margin-top: 4px;
+  width: 104px;
+  z-index: 1;
+}
+
+.billundpigekantori .rectangle-41 {
+  background-color: var(--x-grey-scale--white-bg);
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 26px;
+  width: 356px;
+  z-index: 1;
+}
+
+.billundpigekantori .lorem-ipsum-dolor-si {
+  color: var(--x-grey-scale--white-bg);
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 28px;
+  min-height: 358px;
+  width: 356px;
+  z-index: 1;
+}
+
+
+.slide {
+    border: none; 
+    opacity: 0; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    -webkit-transition: opacity 2s linear;
+    -moz-transition: opacity 2s linear;
+    -o-transition: opacity 2s linear;
+    transition: opacity 2s linear;
+}
+.showMe {opacity: 1;}
+

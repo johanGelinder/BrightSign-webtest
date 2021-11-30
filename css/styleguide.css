@@ -1,0 +1,47 @@
+:root { 
+  --black: #000000;
+  --grey-scaledark-grey-text: #636059;
+  --grey-scalelight-grey-bg: #efeeeb;
+  --redlego-red: #e3000b;
+  --redtint-02: #a51819;
+  --x-grey-scale--white-bg: #ffffff;
+ 
+  --font-size-l: 35px;
+  --font-size-m: 17px;
+  --font-size-s: 14px;
+ 
+  --font-family-graphik-regular: "Graphik-Regular", Helvetica;
+  --font-family-graphik-semibold: "Graphik-Semibold", Helvetica;
+  --font-family-produkt-medium: "Produkt-Medium", Helvetica;
+}
+.headline {
+  font-family: var(--font-family-produkt-medium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.text {
+  font-family: var(--font-family-graphik-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.text-bold {
+  font-family: var(--font-family-graphik-semibold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.small-subtitle {
+  font-family: var(--font-family-graphik-semibold);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+}

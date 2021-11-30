@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+
+
+  </head>
+  <body style="margin: 0; background: #efeeeb">
+    <input type="hidden" id="anPageName" name="page" value="index" />
+    <div class="container-center-horizontal">
+      <div class="index screen">
+        <div class="flex-row">
+          <img class="flex-row-item" src="img/skole-ol@1x.png" />
+          <img class="flex-row-item" src="img/projekt-talentbillund2@1x.png" />
+          <img class="flex-row-item" src="img/talahria-jensen-bkk9jrlywiw-unsplash@1x.png" />
+          <img class="flex-row-item" src="img/projekt-billundpigekantori3@1x.png" />
+        </div>
+        <div class="overlap-group">
+          <div class="flex-row-1">
+            <div class="frame-17">
+              <div class="headline">
+                <h1 class="headline-1 headline">School <br />Olympics</h1>
+                <div class="rectangle-41"></div>
+              </div>
+              <div class="cta-red" onclick="SchoolOlymics()" ><div class="learn-more small-subtitle">Learn more</div></div>
+            </div>
+            <div class="flex-col">
+              <div class="headline">
+                <div class="headline-1 headline">Talent <br />Billund</div>
+                <div class="rectangle-41"></div>
+              </div>
+              <div class="cta-red" onclick="TalentBillund()"><div class="learn-more small-subtitle">Learn more</div></div>
+            </div>
+            <div class="headline-2">
+              <div class="headline-3 headline">Framework <br />for local <br />communities</div>
+              <div class="rectangle-41"></div>
+            </div>
+            <div class="flex-col">
+              <div class="headline">
+                <div class="headline-1 headline">Billund girls’ <br />church choir</div>
+                <div class="rectangle-41"></div>
+              </div>
+              <div class="cta-red" onclick="BillindChoir()"><div class="learn-more small-subtitle">Learn more</div></div>
+            </div>
+          </div>
+          <div class="cta-red-1" onclick="Framework()"><div class="learn-more small-subtitle">Learn more</div></div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script>
+        function SchoolOlymics() {
+          console.log("0 - School Olympics");
+          location.href = "schoololymics.html";
+        }
+         function TalentBillund() {
+          console.log("1 - Talent Billund");
+          location.href = "talentbillund.html";
+        }
+         function Framework() {
+          console.log("2 - Framework for local communities");
+          location.href = "framework.html";
+        }
+         function BillindChoir() {
+          console.log("3 - Billund Girls' Church Choir");
+          location.href = "billundpigekantori.html";
+        }
+    </script>
+  </body>
+</html>

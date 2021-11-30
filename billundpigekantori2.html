@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1280, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/billundpigekantori2.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #efeeeb">
+    <input type="hidden" id="anPageName" name="page" value="billundpigekantori2" />
+    <div class="container-center-horizontal">
+      <div class="billundpigekantori2 screen">
+        <div class="overlap-group2">
+
+          <img id="slideshow0" class="slide showMe" src="img/projekt-billundpigekantori3-1@1x.png" />
+          <img id="slideshow1" class="slide" src="img/projekt-billundpigekantori2@1x.png" />
+          <img id="slideshow2" class="slide " src="img/projekt-billundpigekantori1@1x.png" />
+
+          <div class="back" onclick="BackToIdle()">
+            <img class="vector-1" src="img/vector-1@2x.svg" />
+            <div class="place small-subtitle">Back</div>
+          </div>
+        </div>
+        <div class="overlap-group1">
+          <div class="frame-10">
+            <div class="headline headline">Billund girls’ <br />church choir</div>
+            <div class="overlap-group">
+              <div class="tabs">
+                <div class="facts small-subtitle" onclick="About()">About</div>
+                <div class="rectangle-7"></div>
+              </div>
+              <div class="tabs-1">
+                <div class="about small-subtitle">Facts</div>
+                <div class="rectangle-7-1"></div>
+              </div>
+              <div class="rectangle-41"></div>
+            </div>
+          </div>
+          <div class="lorem-ipsum-dolor-si text">
+            <span class="span-h text">Project name:</span><br>
+            <span class="span text">Billund Pigekantori<br>(Billund girls’ church choir)</span><br><br>
+            <span class="span-h text">Recipient of grant:</span><br>
+            <span class="span text">Grene Sogns Menighedsråd<br>(Grene Parish Council)</span><br><br>
+            <span class="span text">Project period: </span><span class="span text">2019-2021</span><br><br>
+            <span class="span-h text">Target group:</span><br>
+            <span class="span text">Children and youths aged 10-20 years</span><br><br>
+            <span class="span-h text">Ole Kirk&#39;s Fond has awarded:</span><br>
+            <span class="span text">600,000 DKK</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var timer = setInterval(nextImage, 6000);
+      var curImage = 0;
+      var numImages = 3;
+
+      function BackToIdle() {
+          location.href = "index.html";
+        }
+        function About(){
+          location.href = "billundpigekantori.html";
+        }
+
+        function nextImage() {  
+        var e;
+        // remove showMe class from current image
+        e = document.getElementById("slideshow" + curImage);
+        removeClass(e, "showMe");
+    
+        // compute next image
+        curImage++;
+        if (curImage > numImages - 1) {
+            curImage = 0;
+        }
+    
+        //  add showMe class to next image
+        e = document.getElementById("slideshow" + curImage);
+        addClass(e, "showMe");
+      }
+    
+      function addClass(elem, name) {
+        var c = elem.className;
+        if (c) c += " ";  // if not blank, add a space separator
+        c += name;
+        elem.className = c;
+      }
+
+      function removeClass(elem, name) {
+        var c = elem.className;
+        elem.className = c.replace(name, "").replace(/\s+/g, " ").replace(/^\s+|\s+$/g, "");  // remove name and extra blanks
+      }
+    </script>
+  </body>
+</html>
